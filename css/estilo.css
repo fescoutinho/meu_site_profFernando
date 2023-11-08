@@ -122,7 +122,19 @@ section{
     padding: 5%;
     text-align: center;
     /*width: 90%;*/
-}
+    }
+#section2{
+        display: inline-block;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        /*border: 1px solid black;*/
+        margin-left: 5%;;
+        margin-right: 5%;
+        padding: 5%;
+        text-align: center;
+        width: 90%;
+        height: 200px;
+        }
 
 section h2{
     width: 100%;
@@ -147,6 +159,39 @@ section h2{
     border-radius: 10px;
     cursor: pointer;
 }
+
+/* CARD 2 INICIO*/
+.card2{
+    display: inline-block;
+    width: 46%;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid #9fc4f8;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card2:hover{
+    background: #0196b2;
+    color: white;
+    padding: 10px;
+
+}
+
+.card2:hover img{
+    display: none;
+}
+
+.card2:hover .card-text{
+    display: none;
+}
+
+.card2:hover .texto-oculto{
+    display: block;
+}
+
+/* CARD 2 FIM */
+
 
 .texto-oculto{
     display: none;
