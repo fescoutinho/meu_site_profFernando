@@ -3,173 +3,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Laboratório de Matemática 1"> <!-- aprecer na aba-->
-    <meta name="keywords" content="Matemática, Material Manipulável, UEA, Tefé">
-    <link rel="stylesheet" href="css/estilo.css">  <!--Liga o html ao estilo.css-->
-    <link rel="stylesheet" href="css/responsivo.css">  <!--Liga o html ao estilo.css-->
-    <title>Laboratório de Matemática 1 do CEST</title>
+    <link rel="stylesheet"  href="css/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_css_bootstrap.min.css">
+       <title>Prof.Dr.Fernando-Matemática UEA </title>
 </head>
 <body>
-    <nav  class="navbar" >
-        <div class="logo">
-            <h1>Prof. Dr. Fernando Soares Coutinho</h1>
+  
+  <nav class="navbar navbar-expand-lg mb-5 p-3" style="background-color: rgb(100, 209, 209);">
+  <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Orientações
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Projetos de Iniciação Científica</a></li>
+            <li><a class="dropdown-item" href="#">Projeto de Extensão</a></li>
+            <li><a class="dropdown-item" href="#">Trabalhos de conclusão de curso</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Laboratórios de Matemática 
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Laboratório de Matemática I</a></li>
+            <li><a class="dropdown-item" href="#">Laboratório de Matemática II</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Participação em comitês
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Comitê Local de Iniciação Científica</a></li>
+            <li><a class="dropdown-item" href="#">Comitê Local de Produtividade</a></li>
+            <li><a class="dropdown-item" href="#">Colegiado de Matemática</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Disciplinas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Introdução à Análise Matemática</a></li>
+            <li><a class="dropdown-item" href="#">Estágio Supervisionado II</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Quem Somos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+<div class="container" >
+  <div class="row">
+    <div class="col-md-8 mt-5 border bg-light">
+      <h1 class="mb-4" ><strong> Build fast, responsive sites <br> with Bootstrap</strong></h1>
+      <p class="h4" >Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.</p>
+      <button type="button" class="btn btn-outline-info">Info</button>
+      <button type="button" class="btn btn-outline-info">Info</button>
+    </div>
+    <div class="col-md-4 mt-5 border bg-light">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagem/logofernando.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagem/MatemáticA.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagem/IC.png" class="d-block w-100" alt="...">
+          </div>
         </div>
-        <div class="menu">
-            <a href="#"> Home</a>
-            <a href="sobrenos.html"> Sobre Nós</a>
-            <a href="#"> Serviços</a>
-            <a id="botao" href="#"> Fale conosco</a>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<br>
+
+<div class="container">
+<table class="table table-primary table-striped  caption-top mb-5">
+  <caption class="h2" >List of users</caption>
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="col md-12 mt-5">
+  <div class="row">
+
+    <div class="col">
+      <div class="mb-3"></div>
+      <label for="nome" class="form-label">Nome completo</label>
+      <input type="text" class="border border-secondary  form-control" id="nome" placeholder="Digite o seu nome">
+    </div>
+
+    
+    <div class="col">
+      <div class="mb-3"></div>
+      <label for="exampleFormControlInput1"  class="form-label">Seu Endereço de Email</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+
+    <div class="col">
+      <div class="mb-3"></div>
+      <label for="senha" class="form-label">Sua Senha</label>
+      <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+    </div>
+
+  </div>
+  
+    
+  <div class="mb-3 mt-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Deixe sua mensagem</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+  <div class="mb-3 mt-4 h6">
+    <label for="formFile" class="form-label">Adicione seu currículo</label>
+    <input class="form-control" type="file" id="formFile">
+  </div>
+
+  <div class="mt-4 mb-5">
+    <label for="exampleDataList" class="form-label">Qual o seu curso</label>
+    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Clique para escolher...">
+    <datalist id="datalistOptions">
+    <option value="Matemática">
+    <option value="Física">
+    <option value="Química">
+    <option value="Geografia">
+    <option value="Letras">
+    </datalist>
+  </div>
+
+</div>
+</div> 
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-    </nav>
-
-    <header class="header" >
-        <div class="headline" >
-            <h2 style="letter-spacing: 10px;" >Contribuindo com a </h2>
-            <h2 style="font-size: 70px;" > Matemática no Amazonas</h2>
-            <!--<p>Doutor em Matemática pela Universidade Federal de Goiás (2021)</p>
-            <p>Mestre em Matemática pela Universidade Federal de Goiás (2013) </p>
-            <p>Especialista em Matemática pela Universidade Federal de Goiás (2010)</p>
-            <p>Bacharel e Licenciado em Matemática pela Universidade Católica de Goiás (2003) </p>--><br><br>
-            <a href="#"  class="contact-btn">Contato</a>
-           </div>
-
-        <div class="img-headline" >
-            <img style="max-width: 100%;" src="imagem/logofernando.png">
-
+      </div>
+    </div>
+    <div class="col-sm-4 card border-dark mb-3" style="max-width: 18rem;">
+      <div class="card-header">Header</div>
+      <div class="card-body">
+        <h5 class="card-title">Light card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-    </header>
-    <section>
-        <h2>O que estamos fazendo?</h2>
-        <div class="servicos" >
-            <div class="card">
-                <img src="imagem/acessivel.png">
-                <div class="card-text">
-                    <h3>Laboratório de Matemática 1 do CEST/UEA</h3>
-                    <p> Laboratório de Referência em aprendizagem de Matemática com material
-                    manipulável do Médio Solimões </p>
-                </div>
-                <div class="texto-oculto">
-                    <h3>Atividades desenvolvidas</h3>
-                    <p> O Laboratório de Matemática 1 conta com dois bolsistas responsáveis: 
-                        Anderson da Silva Coelho (Projeto Protlab/UEA edital 76/2023 GR/UEA) e
-                         Carla Rodrigues Goveia (Programa Universal FAPEAM edital 001/2023 ). 
-                         A bolsista Carla é responsável pelo projeto "Laboratório de Referência em aprendizagem de Matemática com material
-                         manipulável do Médio Solimões". </p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="imagem/acessivel.png">
-                <div class="card-text">
-                    <h3>Laboratório de Matemática 2 do CEST/UEA</h3>
-                    <p> Laboratório de tecnologias no ensino de Matemática: softwares, Podcast e
-                    vídeos digitais</p>
-                </div>
-                <div class="texto-oculto">
-                    <h3>Atividades desenvolvidas</h3>
-                    <p> O Laboratório de Matemática 2 tem como professores responsáveis Profa. Sabrina de Souza Rodrigues e Prof. Fernando Soares Coutinho. Terá como bolsista responsável Genival Lima do Nascimento.  </p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="imagem/acessivel.png">
-                <div class="card-text">
-                    <h3>Projeto de extensão</h3>
-                    <p> Matemática através de fotografias </p>
-                </div>
-                <div class="texto-oculto">
-                    <h3>Atividades desenvolvidas</h3>
-                    <p> O Projeto de Extensão “Matemática através de fotografias” (Edital 074/2023 GR/UEA PADEX Cultura) visa despertar, através de imagens, o interesse e a curiosidade em Matemática,  de acadêmicos da UEA, em especial de Matemática e Física, e de estudantes da rede pública, Ensino Fundamental 2 e Médio, da cidade de Tefé.
-                        Tem como bolsistas: Alessandro Gomes Moraes (Física); Elianthony Maricaua Ferreira (Química); Ismael Quirino Gomes (Matemática); Larissa Nascimento Dos Santos (Matemática) e Rodrigo Cardoso dos Santos (Matemática).					 </p>
-                </div>
-            </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div class="servicos" >
-                <div class="card">
-                    <img src="imagem/acessivel.png">
-                    <div class="card-text">
-                        <h3>Projetos de Iniciação Científica</h3>
-                        <p> Cálculo diferencial e integral com o uso do WxMáxima </p>
-                    </div>
-                    <div class="texto-oculto">
-                        <h3>Atividades desenvolvidas</h3>
-                        <p> São 3 projetos contemplados pelo Edital 26/2023 GR/UEA com bolsa FAPEAM. 
-                            Estudo de funções trigonométricas utilizando o software WxMaxima. Bolsista: Karem Pinheiro do Nascimento;
-                            Estudo das derivadas de funções e suas aplicações utilizando o software WxMaxima. Bolsista: Avila Dos Santos Azevedo;
-                            Estudo das integrais de funções e suas aplicações utilizando o software WxMaxima. Bolsista: Vitoria Cristina Da Silva Pereira. </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="imagem/acessivel.png">
-                    <div class="card-text">
-                        <h3>Orientação de TCC</h3>
-                        <p> São 4 orientandos de graduação relacionados a frações e jogos matemáticos.</p>
-                    </div>
-                    <div class="texto-oculto">
-                        <h3>Atividades desenvolvidas</h3>
-                        <p> São 4 orientandos de graduação: David Willian Lima De Castro; Daniel Lázaro Nery de Souza; Rodrigo Coelho Gomes e Vitor Gabriel Da Silva Pereira. As temátcas estão relacionadas a frações utilizando jogos
-                         </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="imagem/acessivel.png">
-                    <div class="card-text">
-                        <h3>Disciplinas atuais</h3>
-                        <p> Estágio Supervisionado 2 e Introdução à análise na reta </p>
-                    </div>
-                    <div class="texto-oculto">
-                        <h3>Atividades desenvolvidas</h3>
-                        <p> Estágio Supervisionado 2: Estágio de coparticipação em turmas do Ensino Médio.<br><br>
-                            
-                            e Introdução à análise na reta: Números reais. Sequências e séries numéricas. Topologia da reta. Limites de funções. Funções contínuas. Derivadas. Funções Diferenciáveis. Integral de Riemann. Séries de Funções. </p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="servicos" >
-                <div class="card">
-                    <img src="imagem/acessivel.png">
-                    <div class="card-text">
-                        <h3>Participação em Grupos de Pesquisa e publicações</h3>
-                        <p> Líder do Grupo de Pesquisa Matemática no Solimões </p>
-                    </div>
-                    <div class="texto-oculto">
-                        <h3>Linhas de Pesquisa do Grupo</h3>
-                        <p> 1. Geometria Diferencial. Prof. Dr. Fernando Soares Coutinho<br>
-                            2. Matemática computacional. Prof. Dr. Robert Luis Lara Ribeiro<br>
-                            3. Educação Matemática. Prof. Me. Carlos José Ferreira Soares </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="imagem/acessivel.png">
-                    <div class="card-text">
-                        <h3>Organização e Participação de eventos científicos</h3>
-                        <p> Coordenação da V Jornada de Álgebra no Amazonas</p>
-                    </div>
-                    <div class="texto-oculto">
-                        <h3>Atividades desenvolvidas</h3>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo provident sint voluptas nihil itaque qui impedit reiciendis eum necessitatibus omnis, numquam, est ullam fugiat dignissimos excepturi commodi perspiciatis esse. Inventore? </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="imagem/acessivel.png">
-                    <div class="card-text">
-                        <h3>Participação em comitês</h3>
-                        <p> Participação do comitê de Iniciação científica e do Comitê de Produtividade do CEST/UEA </p>
-                    </div>
-                    <div class="texto-oculto">
-                        <h3>Atividades desenvolvidas</h3>
-                        <p> No Comitê local de iniciação científica, sou responsável por participar das bancas de defesa parcial e final, repassar informações para os demais membros do Colegiado de Matemática a respeito de editais. </p>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-    </section>
-    <footer>
-        <div class="logo-rodape">
-            <h1 class="agencia" >Professor de Matemática</h1>
-            <p style="color: white">Um site feito com Html  e CSS puro</p>
-            <p style="color: white;">©Todos os direitos reservados</p>
-        </div>
-    </footer>
+
+
+
+
+
+
+    <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>   
 </body>
 </html>
