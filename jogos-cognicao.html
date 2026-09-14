@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Jogos e Cognição | Prof. Dr. Fernando Soares Coutinho</title>
+  <meta name="description" content="Jogos e materiais educativos relacionados à aprendizagem matemática e ao desenvolvimento cognitivo, apresentados pelo Prof. Dr. Fernando Soares Coutinho.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23173f4b'/%3E%3Cpath d='M8 9h16v3H12v3h9v3h-9v6H8z' fill='%2377c7c3'/%3E%3Ccircle cx='24' cy='8' r='3' fill='%23e4a849'/%3E%3C/svg%3E">
+  <style>
+    :root{--ink:#132b35;--deep:#173f4b;--teal:#167b7f;--aqua:#77c7c3;--gold:#e4a849;--paper:#f7faf8;--line:#d9e5e2;--muted:#587079}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.65}a{color:inherit;text-decoration:none}
+    .site-header{min-height:86px;padding:14px clamp(22px,5vw,76px);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #132b351f;background:#f7faf8ee;position:sticky;top:0;z-index:20;backdrop-filter:blur(15px)}
+    .brand{display:flex;align-items:center;gap:13px}.brand-mark{width:43px;height:43px;border-radius:50%;display:grid;place-items:center;background:var(--deep);color:#fff;font-family:Georgia,serif;font-weight:700}.brand strong,.brand small{display:block}.brand strong{font-family:Georgia,serif;font-size:17px}.brand small{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+    nav{display:flex;gap:22px;font-size:14px;font-weight:700}nav a:hover,nav a[aria-current="page"]{color:var(--teal)}
+    .page-hero{padding:90px clamp(22px,7vw,110px) 76px;background:radial-gradient(circle at 88% 18%,#77c7c344,transparent 28%),linear-gradient(135deg,#f7faf8,#edf6f3)}
+    .eyebrow,.kicker{text-transform:uppercase;letter-spacing:.17em;font-size:12px;font-weight:800;color:var(--teal);margin:0 0 18px}.page-hero h1{font:500 clamp(48px,6vw,78px)/1.02 Georgia,serif;letter-spacing:-.04em;margin:0;max-width:940px}.page-hero p:last-child{font-size:19px;color:var(--muted);max-width:780px;margin:28px 0 0}
+    .section{padding:92px clamp(22px,7vw,110px)}.game-head{display:grid;grid-template-columns:220px 1fr;gap:55px;align-items:start;margin-bottom:45px}.number-card{background:var(--deep);color:#fff;padding:28px;border-radius:4px 35px 4px 4px}.number-card strong{display:block;font:48px/1 Georgia,serif;color:var(--aqua)}.number-card span{display:block;margin-top:8px;font-size:14px}.number-card small{display:block;border-top:1px solid #ffffff38;margin-top:20px;padding-top:16px;color:#c8dcdf}.game-title h2{font:500 clamp(38px,4.5vw,62px)/1.08 Georgia,serif;letter-spacing:-.025em;margin:0}.game-title .intro{font-size:18px;color:var(--muted);max-width:870px}
+    .visual{margin:0}.visual img{display:block;width:100%;height:auto;border-radius:7px 48px 7px 7px;box-shadow:0 22px 55px #173f4b20}.visual figcaption{color:var(--muted);font-size:12px;margin-top:12px}
+    .how{display:grid;grid-template-columns:1fr 1fr;gap:70px;background:#fff}.how h3,.cards h3,.observe h3{font:32px/1.2 Georgia,serif;margin:0 0 18px}.how p,.how li,.cards p,.cards li,.observe p{color:var(--muted);font-size:17px}.how ol{padding-left:22px}.how li+li{margin-top:10px}.question{border-left:5px solid var(--gold);padding:20px 24px;background:#fbf7ed;margin-top:28px}.question strong{display:block;color:var(--teal);font-size:12px;text-transform:uppercase;letter-spacing:.12em;margin-bottom:6px}.question p{font:700 20px/1.4 Georgia,serif;color:var(--ink);margin:0}
+    .cards{background:#eaf3f1}.cards-head{max-width:800px;margin-bottom:36px}.cards h2{font:500 clamp(35px,4vw,56px)/1.08 Georgia,serif;margin:0}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.card{background:#fff;padding:32px;border-top:5px solid var(--teal);border-radius:4px 24px 4px 4px}.card:nth-child(2){border-color:var(--gold)}.card ul{padding-left:20px;margin-bottom:0}
+    .observe{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:start}.levels{display:grid;gap:14px}.level{padding:20px 22px;border:1px solid var(--line);background:#fff}.level strong{color:var(--teal)}.note{background:var(--deep);color:#fff;padding:35px;border-radius:4px 32px 4px 4px}.note h3{color:#fff}.note p{color:#d2e2e4}.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}.tags span{padding:8px 13px;border:1px solid #ffffff42;border-radius:999px;color:#fff;font-size:13px;font-weight:700}
+    .back{padding:40px clamp(22px,7vw,110px);background:var(--gold);display:flex;justify-content:space-between;align-items:center;gap:25px}.back strong{font:25px Georgia,serif}.button{display:inline-flex;padding:12px 19px;border-radius:999px;background:var(--deep);color:#fff;font-size:14px;font-weight:700}
+    footer{background:#0d2932;color:#fff;padding:45px clamp(22px,7vw,110px);display:grid;grid-template-columns:1.5fr 1fr auto;align-items:center;gap:30px}footer .brand small,footer>p{color:#a9c4c7}footer>p{font-size:12px}.footer-brand .brand-mark{background:var(--gold);color:var(--ink)}
+    @media(max-width:950px){nav{display:none}.game-head,.how,.observe{grid-template-columns:1fr}.number-card{max-width:280px}footer{grid-template-columns:1fr}}
+    @media(max-width:680px){.site-header{min-height:74px}.brand small{display:none}.brand strong{font-size:14px}.page-hero{padding-top:60px}.page-hero h1{font-size:44px}.section{padding-top:68px;padding-bottom:68px}.game-head{gap:30px}.grid{grid-template-columns:1fr}.back{align-items:flex-start;flex-direction:column}.visual img{border-radius:6px 25px 6px 6px}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">FC</span><span><strong>Fernando Soares Coutinho</strong><small>Educação Matemática · Cognição · Geometria</small></span></a>
+    <nav aria-label="Navegação principal"><a href="index.html#sobre">Sobre</a><a href="index.html#atuacao">Atuação</a><a href="oficinas-palestras.html">Oficinas e palestras</a><a href="jogos-cognicao.html" aria-current="page">Jogos e cognição</a><a href="index.html#producoes">Produções</a></nav>
+  </header>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Aprendizagem matemática · Desenvolvimento cognitivo</p>
+      <h1>Jogos para pensar, experimentar e aprender.</h1>
+      <p>Um catálogo pedagógico de jogos e materiais educativos, com orientações de uso e possibilidades para a aprendizagem matemática e o desenvolvimento de processos cognitivos.</p>
+    </section>
+
+    <article>
+      <section class="section">
+        <div class="game-head">
+          <div class="number-card"><strong>01</strong><span>Primeiro registro</span><small>Jogo de construção<br>e equilíbrio</small></div>
+          <div class="game-title">
+            <p class="kicker">Planejamento · Equilíbrio · Estratégia</p>
+            <h2>Torre Inteligente</h2>
+            <p class="intro">Um desafio de construção no qual placas e cilindros coloridos precisam ser combinados com atenção. A cada novo nível, o participante planeja os apoios, avalia a estabilidade e ajusta sua estratégia para manter a torre em equilíbrio.</p>
+          </div>
+        </div>
+        <figure class="visual">
+          <img src="imagem/torre-inteligente-aplicacao.png" alt="Professor mediando uma atividade com dois adolescentes que constroem torres usando placas e cilindros coloridos" width="1672" height="941">
+          <figcaption>Imagem ilustrativa produzida com inteligência artificial para representar uma possibilidade de aplicação pedagógica do jogo.</figcaption>
+        </figure>
+      </section>
+
+      <section class="section how">
+        <div>
+          <p class="kicker">Como jogar</p>
+          <h3>Construir sem perder o equilíbrio.</h3>
+          <ol>
+            <li>Separe as placas e os cilindros coloridos.</li>
+            <li>Escolha uma placa como base e posicione os cilindros sobre as cores indicadas.</li>
+            <li>Alterne placas e cilindros para acrescentar novos níveis.</li>
+            <li>Construa a torre mais alta possível sem derrubá-la.</li>
+            <li>Se a torre cair, encerre a rodada e registre a altura alcançada.</li>
+          </ol>
+          <p>A atividade pode ser realizada individualmente, em duplas ou de modo cooperativo, com os participantes discutindo cada escolha antes de acrescentar uma peça.</p>
+        </div>
+        <div>
+          <p class="kicker">Objetivo pedagógico</p>
+          <h3>Antecipar, testar e revisar escolhas.</h3>
+          <p>O interesse do jogo não está apenas na altura final. Durante a construção, o participante formula hipóteses sobre estabilidade, observa a distribuição dos apoios e modifica suas decisões quando percebe riscos de queda.</p>
+          <div class="question"><strong>Pergunta de estratégia</strong><p>Por que a posição dos apoios altera o equilíbrio da torre?</p></div>
+        </div>
+      </section>
+
+      <section class="section cards">
+        <div class="cards-head"><p class="kicker">O que o jogo mobiliza</p><h2>Cognição e Matemática na mesma experiência.</h2></div>
+        <div class="grid">
+          <div class="card">
+            <p class="kicker">Funções cognitivas</p>
+            <h3>Planejar e controlar a ação.</h3>
+            <ul><li>atenção sustentada e seletiva;</li><li>planejamento da posição de cada apoio;</li><li>coordenação motora fina e controle do movimento;</li><li>controle inibitório e espera da vez;</li><li>flexibilidade cognitiva e revisão do erro;</li><li>tolerância à frustração.</li></ul>
+          </div>
+          <div class="card">
+            <p class="kicker">Aprendizagem matemática</p>
+            <h3>Perceber relações espaciais.</h3>
+            <ul><li>equilíbrio e distribuição espacial;</li><li>simetria e posição relativa;</li><li>contagem de níveis e peças;</li><li>comparação e medição de alturas;</li><li>reconhecimento de cores e padrões;</li><li>estimativa de estabilidade.</li></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section observe">
+        <div>
+          <p class="kicker">Possibilidades de adaptação</p>
+          <h3>Diferentes níveis de desafio.</h3>
+          <div class="levels">
+            <div class="level"><strong>Inicial:</strong> construir livremente, com menos níveis e auxílio verbal.</div>
+            <div class="level"><strong>Intermediário:</strong> respeitar rigorosamente as correspondências de cores e registrar a altura.</div>
+            <div class="level"><strong>Avançado:</strong> prever a estabilidade antes de cada jogada, justificar a escolha e comparar estratégias.</div>
+          </div>
+        </div>
+        <div class="note">
+          <p class="kicker">O que observar</p>
+          <h3>O processo importa mais que a torre pronta.</h3>
+          <p>Durante a prática, o educador pode observar como o participante planeja, lida com o erro, sustenta a atenção, comunica sua estratégia e reorganiza a ação após uma tentativa instável. Essas observações têm finalidade pedagógica e não constituem avaliação clínica ou diagnóstico.</p>
+          <div class="tags"><span>Atenção</span><span>Planejamento</span><span>Equilíbrio</span><span>Percepção espacial</span><span>Autorregulação</span></div>
+        </div>
+      </section>
+    </article>
+
+    <section class="back"><strong>Conheça também as oficinas e ações formativas.</strong><a class="button" href="oficinas-palestras.html">Ver oficinas e palestras →</a></section>
+  </main>
+  <footer><div class="brand footer-brand"><span class="brand-mark">FC</span><span><strong>Prof. Dr. Fernando Soares Coutinho</strong><small>Educador Matemático e Estudioso da Aprendizagem Matemática e do Desenvolvimento Cognitivo</small></span></div><p>Centro de Estudos Superiores de Tefé · Universidade do Estado do Amazonas</p><p>© 2026</p></footer>
+</body>
+</html>
