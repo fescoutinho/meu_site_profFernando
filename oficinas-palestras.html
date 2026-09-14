@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Oficinas e Palestras | Prof. Dr. Fernando Soares Coutinho</title>
+  <meta name="description" content="Oficinas, palestras e ações formativas desenvolvidas pelo Prof. Dr. Fernando Soares Coutinho no CEST/UEA e em escolas de Tefé-AM.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23173f4b'/%3E%3Cpath d='M8 9h16v3H12v3h9v3h-9v6H8z' fill='%2377c7c3'/%3E%3Ccircle cx='24' cy='8' r='3' fill='%23e4a849'/%3E%3C/svg%3E">
+  <style>
+    :root{--ink:#132b35;--deep:#173f4b;--teal:#167b7f;--aqua:#77c7c3;--gold:#e4a849;--paper:#f7faf8;--line:#d9e5e2;--muted:#587079}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.65}a{color:inherit;text-decoration:none}
+    .site-header{min-height:86px;padding:14px clamp(22px,5vw,76px);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #132b351f;background:#f7faf8ee;position:sticky;top:0;z-index:20;backdrop-filter:blur(15px)}
+    .brand{display:flex;align-items:center;gap:13px}.brand-mark{width:43px;height:43px;border-radius:50%;display:grid;place-items:center;background:var(--deep);color:#fff;font-family:Georgia,serif;font-weight:700}.brand strong,.brand small{display:block}.brand strong{font-family:Georgia,serif;font-size:17px}.brand small{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+    nav{display:flex;gap:25px;font-size:14px;font-weight:700}nav a:hover,nav a[aria-current="page"]{color:var(--teal)}
+    .page-hero{padding:90px clamp(22px,7vw,110px) 76px;background:radial-gradient(circle at 88% 18%,#77c7c344,transparent 28%),linear-gradient(135deg,#f7faf8,#edf6f3)}
+    .eyebrow,.kicker{text-transform:uppercase;letter-spacing:.17em;font-size:12px;font-weight:800;color:var(--teal);margin:0 0 18px}.page-hero h1{font:500 clamp(48px,6vw,78px)/1.02 Georgia,serif;letter-spacing:-.04em;margin:0;max-width:940px}.page-hero p:last-child{font-size:19px;color:var(--muted);max-width:760px;margin:28px 0 0}
+    .section{padding:92px clamp(22px,7vw,110px)}.event-head{display:grid;grid-template-columns:210px 1fr;gap:55px;align-items:start;margin-bottom:45px}.date-card{background:var(--deep);color:#fff;padding:28px;border-radius:4px 35px 4px 4px}.date-card strong{display:block;font:48px/1 Georgia,serif;color:var(--aqua)}.date-card span{display:block;margin-top:8px;font-size:14px}.date-card small{display:block;border-top:1px solid #ffffff38;margin-top:20px;padding-top:16px;color:#c8dcdf}.event-title h2{font:500 clamp(35px,4vw,58px)/1.08 Georgia,serif;letter-spacing:-.025em;margin:0}.event-title .place{color:var(--teal);font-weight:700;margin:18px 0 0}.event-title .intro{font-size:18px;color:var(--muted);max-width:850px}
+    .visual{margin:0}.visual img{display:block;width:100%;height:auto;border-radius:7px 48px 7px 7px;box-shadow:0 22px 55px #173f4b20}.visual figcaption{color:var(--muted);font-size:12px;margin-top:12px}
+    .details{display:grid;grid-template-columns:1fr 1fr;gap:70px;background:#fff}.details h3{font:32px/1.2 Georgia,serif;margin:0 0 18px}.details p{color:var(--muted);font-size:17px}.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}.tags span{padding:8px 13px;border:1px solid var(--line);border-radius:999px;color:var(--teal);font-size:13px;font-weight:700}
+    .gallery{background:#eaf3f1}.gallery-head{display:grid;grid-template-columns:1fr 390px;gap:40px;align-items:end;margin-bottom:38px}.gallery h2{font:500 clamp(35px,4vw,56px)/1.08 Georgia,serif;margin:0}.gallery-head>p{margin:0;color:var(--muted)}.gallery img{display:block;width:100%;height:auto;border-radius:42px 7px 42px 7px;box-shadow:0 18px 45px #173f4b1c}
+    .back{padding:40px clamp(22px,7vw,110px);background:var(--gold);display:flex;justify-content:space-between;align-items:center;gap:25px}.back strong{font:25px Georgia,serif}.button{display:inline-flex;padding:12px 19px;border-radius:999px;background:var(--deep);color:#fff;font-size:14px;font-weight:700}
+    footer{background:#0d2932;color:#fff;padding:45px clamp(22px,7vw,110px);display:grid;grid-template-columns:1.5fr 1fr auto;align-items:center;gap:30px}footer .brand small,footer>p{color:#a9c4c7}footer>p{font-size:12px}.footer-brand .brand-mark{background:var(--gold);color:var(--ink)}
+    @media(max-width:850px){nav{display:none}.event-head,.details,.gallery-head{grid-template-columns:1fr}.date-card{max-width:260px}footer{grid-template-columns:1fr}}
+    @media(max-width:600px){.site-header{min-height:74px}.brand small{display:none}.brand strong{font-size:14px}.page-hero{padding-top:60px}.page-hero h1{font-size:44px}.section{padding-top:68px;padding-bottom:68px}.event-head{gap:30px}.details{gap:45px}.back{align-items:flex-start;flex-direction:column}.visual img,.gallery img{border-radius:6px 25px 6px 6px}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">FC</span><span><strong>Fernando Soares Coutinho</strong><small>Educação Matemática · Cognição · Geometria</small></span></a>
+    <nav aria-label="Navegação principal"><a href="index.html#sobre">Sobre</a><a href="index.html#atuacao">Atuação</a><a href="oficinas-palestras.html" aria-current="page">Oficinas e palestras</a><a href="index.html#producoes">Produções</a></nav>
+  </header>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">UEA · Escolas · Comunidade</p>
+      <h1>Oficinas e palestras em movimento.</h1>
+      <p>Registros de ações que aproximam universidade, formação docente, jogos, tecnologia e aprendizagem matemática no Médio Solimões.</p>
+    </section>
+
+    <article>
+      <section class="section">
+        <div class="event-head">
+          <div class="date-card"><strong>11</strong><span>setembro · 2026</span><small>Oficina · CEST/UEA<br>Tefé — Amazonas</small></div>
+          <div class="event-title">
+            <p class="kicker">Metodologia do Estudo</p>
+            <h2>Oficina de jogos matemáticos</h2>
+            <p class="place">Centro de Estudos Superiores de Tefé — Universidade do Estado do Amazonas</p>
+            <p class="intro">Atividade desenvolvida com acadêmicos da disciplina Metodologia do Estudo, criando um ambiente de experimentação, interação e reflexão sobre as possibilidades pedagógicas dos jogos e materiais manipuláveis.</p>
+          </div>
+        </div>
+        <figure class="visual">
+          <img src="imagem/oficina-jogos-11-09-2026-geral.png" alt="Ilustração em realismo estilizado de uma oficina universitária com grupos experimentando jogos matemáticos" width="1600" height="900">
+          <figcaption>Representação visual produzida com inteligência artificial a partir dos registros da atividade, preservando a identidade dos participantes.</figcaption>
+        </figure>
+      </section>
+
+      <section class="section details">
+        <div>
+          <p class="kicker">A proposta</p>
+          <h3>Aprender também é experimentar.</h3>
+          <p>Os participantes circularam por diferentes desafios, observaram estratégias, testaram hipóteses e compartilharam formas de resolução. A vivência mostrou como o jogo pode transformar conteúdos e processos cognitivos em experiências concretas de aprendizagem.</p>
+          <div class="tags"><span>Jogos matemáticos</span><span>Resolução de problemas</span><span>Aprendizagem colaborativa</span></div>
+        </div>
+        <div>
+          <p class="kicker">Em foco</p>
+          <h3>Cognição, estratégia e cooperação.</h3>
+          <p>As atividades mobilizaram atenção, planejamento, memória operacional, percepção espacial, controle de impulsos, flexibilidade cognitiva e comunicação. Mais do que chegar a uma resposta, o objetivo foi perceber caminhos, rever escolhas e aprender com os colegas.</p>
+          <div class="tags"><span>Atenção</span><span>Planejamento</span><span>Percepção espacial</span><span>Funções executivas</span></div>
+        </div>
+      </section>
+
+      <section class="section gallery">
+        <div class="gallery-head"><div><p class="kicker">Um percurso, muitas experiências</p><h2>Diferentes jogos, diferentes maneiras de pensar.</h2></div><p>Construções, sequências, formas geométricas, equilíbrio e desafios de estratégia compuseram um circuito de aprendizagem em movimento.</p></div>
+        <img src="imagem/oficina-jogos-11-09-2026-mural.png" alt="Mural ilustrado com seis momentos distintos de uma oficina de jogos matemáticos" width="1600" height="900">
+      </section>
+    </article>
+
+    <section class="back"><strong>Conheça também as demais áreas de atuação.</strong><a class="button" href="index.html#atuacao">Voltar ao site principal →</a></section>
+  </main>
+  <footer><div class="brand footer-brand"><span class="brand-mark">FC</span><span><strong>Prof. Dr. Fernando Soares Coutinho</strong><small>Educador Matemático e Estudioso da Aprendizagem Matemática e do Desenvolvimento Cognitivo</small></span></div><p>Centro de Estudos Superiores de Tefé · Universidade do Estado do Amazonas</p><p>© 2026</p></footer>
+</body>
+</html>
